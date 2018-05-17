@@ -6,7 +6,7 @@
 		$dbh     = $db->enchufalo();
 
  	
-			
+			var_dump($_POST);
 foreach ($_POST as $key => $value) {
 	$json=(json_decode($key));
 }
